@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(195, 255, 193);
+}
+header {
+    background-image: linear-gradient(to right, rgb(115, 194, 113) , rgb(195, 255, 193));
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content:space-between;
+}
+
+.header_image_container {
+    height: 80px;
+    margin-left: 10px;
+    box-shadow: 0 0 8px 8px rgb(115, 194, 113) inset;
+}
+
+.header_image {
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+.image-blurred-edge {
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+.header_menu {
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    display: flex;
+    width: 250px;
+    justify-content:space-evenly;
+}
