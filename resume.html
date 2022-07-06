@@ -3,7 +3,7 @@
 
     <head>
         <title>Mice Resume!</title>
-        <link rel="stylesheet" href="./assets/css/resume_style.css" />
+
         <link rel="icon" type="image/x-icon" href="./assets/images/rat.ico">
         <!-- 
             Title is title/name of HTML page
@@ -11,6 +11,10 @@
             Icon is icon/logo of HTML page
             Stylesheet is .css
         -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/resume_style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 
     <body>
@@ -21,13 +25,168 @@
             </div>
             <div>
                 <nav class=" header_menu">
-                    <a href="#top">Top</a>
                     <a href="#about">About</a>
-                    <a href="#menu">Menu</a>
-                    <a href="#order">Order</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
+        <main>
+            <article>
+                <section class="section_about">
+                    <div id="about" class="section_header_about">
+                        <h1>About me</h1>
+                    </div>
+                    <div class="section_content_about">
+                        <p>My name is peecheep (also known as LittleMouse1223), and this is my resume! I have 2 eyes, 1
+                            nose, and 4 toes! I like to eat foob and sleep behind my teepee. As a result, I am the
+                            founder of a few new terms, such as "Teepee dweller," as well as the popular phrase "Yellow
+                            is my favourite colour." Yee!</p>
+                    </div>
+                </section>
+                <section class="section_skills">
+                    <div id="skills" class="section_header_skills">
+                        <h1>Skills</h1>
+                    </div>
+                    <div class="section_list_skills">
+                        <div class="list_skills_items">
+                            <ul class="ul_flex">
+                                <div class="skills_items_prehensile">
+                                    <li>
+                                        <h4>Prehensile tail</h4>
+                                    </li>
+                                    <p>I can use my tail to grab things and keep my balance. It also works as a water
+                                        propeller and fan. If you need me to fan or propel towards you, I can!</p>
+                                    <div class="container_image_center">
+                                        <img src="./assets/images/prehensile_tail_image.jpg" alt="Prehensile tail"
+                                            title="Very flexible" class="image_prehensile" />
+                                    </div>
+                                </div>
+                                <div class="skills_items_eco">
+                                    <li>
+                                        <h4>Eco-location</h4>
+                                    </li>
+                                    <p>I can make a high pitched mouse noise that only I can detect. I exhale and use my
+                                        whiskers to propel the sound waves further than they could've ever gone. Just
+                                        like
+                                        how I can exhale and use my whiskers to propel your company to reach success!
+                                        With
+                                        my eco-location, I can detect the environment efficiently and eco-friendlyly. If
+                                        you
+                                        need more eco-friendly points, I can!</p>
+                                    <div class="container_image_center">
+                                        <img src="./assets/images/ecofriendly_image.png" alt="Eco-location"
+                                            title="eeeeee" class="image_ecolocation" />
+                                    </div>
+
+                                </div>
+                            </ul>
+                            <ul class="ul_spacebetween">
+                                <div class="skills_items_cheekpouch">
+                                    <li>
+                                        <h4>Cheek pouch</h4>
+                                    </li>
+                                    <p>I can carry foob in my mouth. If you need me to carry a pen for you, I can!</p>
+                                    <div class="container_image_center">
+                                        <img src="./assets/images/cheekpouch_image.webp" alt="Cheekpouch"
+                                            title="Mon sac-a-dos" class="image_cheekpouch" />
+                                    </div>
+                                </div>
+                                <div class="skills_items_decisionmaking">
+                                    <li>
+                                        <h4>Decision making</h4>
+                                    </li>
+                                    <p>I am good at making decisions; just like how you're favourite colour is yellow!
+                                        If
+                                        you like yellow, I can!</p>
+                                    <div class="container_image_center">
+                                        <img src="./assets/images/decisionmaking_image.png" alt="Decision making"
+                                            title="Wei wei" class="image_decisionmaking" />
+                                    </div>
+                                </div>
+                                <div class="skills_items_secretskill">
+                                    <!-- Later, make a secret website and link it to the "secretskill" image -->
+                                    <li>
+                                        <h4>Secret skill</h4>
+                                    </li>
+                                    <p>Very secret...</p>
+                                    <div class="container_image_center">
+                                        <img src="./assets/images/mysteryskill_image.png" alt="Secret skill"
+                                            title="actually GREEN not yeeelow" class="image_secretskill" />
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="section_pictures_skills">
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section_skills">
+                    <div id="portfolio" class="same_row_center">
+                        <h1>Portfolio</h1>
+                    </div>
+
+                    <div class="container">
+                        <div id="miceMenu" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#miceMenu" data-slide-to="0" class="active"></li>
+                                <li data-target="#miceMenu" data-slide-to="1"></li>
+                                <li data-target="#miceMenu" data-slide-to="2"></li>
+                                <li data-target="#miceMenu" data-slide-to="3"></li>
+                                <li data-target="#miceMenu" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner same_row_center">
+                                <div class="item active">
+                                    <img src="./assets/images/mouse_face.jpg" alt="mouse_face" title="weird"
+                                        style="width:100%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./assets/images/mouse_stretch.jpg" alt="mouse_stretch"
+                                        title="do hamsters poop out of their mouths???" style="width:100%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./assets/images/sparkling_penguin.jpg" alt="sparkling_penguin"
+                                        title="It's holding a pickle" style="width:100%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./assets/images/smooth_bald.jpg" alt="smooth_bald" title="Smooth bald"
+                                        style="width:100%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="./assets/images/cat_image.jpg" alt="cat" title="'Tasty'"
+                                        style="width:100%;">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#miceMenu" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#miceMenu" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </article>
+        </main>
+        <footer></footer>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script type="text/javascript" src="./assets/js/script.js"></script>
     </body>
 
 </html>
