@@ -19,3 +19,11 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function send_message() {
+  var message = document.getElementById("form_message");
+  var name = document.getElementById("form_name");
+  if (name.value !== "" && message.value !== "") {
+    alert("Hi " + name.value + ", you said '" + message.value + ".' O a.");
+  }
+}
